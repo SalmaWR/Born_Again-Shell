@@ -30,7 +30,10 @@ for (int i = n; i < n + 5; i++)
 printf("%d", i); 
 fflush(stdout);
 }
+if (id != 0)
+{
 printf("\n");
+}
 return 0;
 
 }
